@@ -1,0 +1,74 @@
+{
+  "uid" : "6b7e14b765c5fd80",
+  "name" : "test_change_pw",
+  "fullName" : "basic_test#test_change_pw",
+  "historyId" : "b67b9cdf317d9455df4871cfee398cbd",
+  "time" : {
+    "start" : 1663676318617,
+    "stop" : 1663676321682,
+    "duration" : 3065
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d543b3044927e9e7",
+      "name" : "stdout",
+      "source" : "d543b3044927e9e7.txt",
+      "type" : "text/plain",
+      "size" : 285
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "내 정보"
+  }, {
+    "name" : "story",
+    "value" : "비밀번호 변경"
+  }, {
+    "name" : "suite",
+    "value" : "basic_test"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-S8ODV3K"
+  }, {
+    "name" : "thread",
+    "value" : "41740-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "basic_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6b7e14b765c5fd80.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,68 @@
+{
+  "uid" : "db2bbb218a1c021e",
+  "name" : "test_setup",
+  "fullName" : "basic_test#test_setup",
+  "historyId" : "973f3910e8544d9175717e896d6b4b65",
+  "time" : {
+    "start" : 1663676551983,
+    "stop" : 1663676553965,
+    "duration" : 1982
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bb3037264378d48b",
+      "name" : "stdout",
+      "source" : "bb3037264378d48b.txt",
+      "type" : "text/plain",
+      "size" : 41
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "basic_test"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-S8ODV3K"
+  }, {
+    "name" : "thread",
+    "value" : "25500-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "basic_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "db2bbb218a1c021e.json",
+  "parameterValues" : [ ]
+}

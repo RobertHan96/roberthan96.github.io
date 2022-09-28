@@ -1,0 +1,2 @@
+kr.co.nowcom.mobile.afreeca:id/ll_privacy 탭
+/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView 체크

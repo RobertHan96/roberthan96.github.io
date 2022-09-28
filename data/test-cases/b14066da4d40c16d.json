@@ -1,0 +1,68 @@
+{
+  "uid" : "b14066da4d40c16d",
+  "name" : "test_setup",
+  "fullName" : "install_test#test_setup",
+  "historyId" : "1de29090db55f41815b017c1bb716504",
+  "time" : {
+    "start" : 1642065196109,
+    "stop" : 1642065197428,
+    "duration" : 1319
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "45d8e757d5763c11",
+      "name" : "stdout",
+      "source" : "45d8e757d5763c11.txt",
+      "type" : "text/plain",
+      "size" : 24
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "install_test"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-S8ODV3K"
+  }, {
+    "name" : "thread",
+    "value" : "23396-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "install_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b14066da4d40c16d.json",
+  "parameterValues" : [ ]
+}

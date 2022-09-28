@@ -1,0 +1,150 @@
+{
+  "uid" : "fd13511f097a28f3",
+  "name" : "test_login",
+  "fullName" : "login_test#test_login",
+  "historyId" : "21704533520f97db210ca1ea8c177c5a",
+  "time" : {
+    "start" : 1649062673972,
+    "stop" : 1649062680726,
+    "duration" : 6754
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 11,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "지정된 계정정보로 로그인"
+  }, {
+    "name" : "feature",
+    "value" : "로그인 기능"
+  }, {
+    "name" : "suite",
+    "value" : "login_test"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-S8ODV3K"
+  }, {
+    "name" : "thread",
+    "value" : "106092-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "login_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c9c7defe4a0da680",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\user\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+      "time" : {
+        "start" : 1649050314437,
+        "stop" : 1649050414569,
+        "duration" : 100132
+      }
+    }, {
+      "uid" : "bb46bd5c6903a788",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\user\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+      "time" : {
+        "start" : 1646638147014,
+        "stop" : 1646638250013,
+        "duration" : 102999
+      }
+    }, {
+      "uid" : "14ecbab8011883fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646632202109,
+        "stop" : 1646632209509,
+        "duration" : 7400
+      }
+    }, {
+      "uid" : "728782960f38ed34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646380098941,
+        "stop" : 1646380106799,
+        "duration" : 7858
+      }
+    }, {
+      "uid" : "fa5beeb69c52854f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645008941733,
+        "stop" : 1645008947499,
+        "duration" : 5766
+      }
+    }, {
+      "uid" : "150b52c21d354fce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642267502546,
+        "stop" : 1642267508938,
+        "duration" : 6392
+      }
+    }, {
+      "uid" : "79ed1b8a0247209",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642136983608,
+        "stop" : 1642136990737,
+        "duration" : 7129
+      }
+    }, {
+      "uid" : "bef505394dad86ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642125264801,
+        "stop" : 1642125269765,
+        "duration" : 4964
+      }
+    }, {
+      "uid" : "f8ec376ae0dab187",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642124400719,
+        "stop" : 1642124417437,
+        "duration" : 16718
+      }
+    }, {
+      "uid" : "cc0b9b2f50c9a4d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641891218940,
+        "stop" : 1641891225303,
+        "duration" : 6363
+      }
+    }, {
+      "uid" : "e44ecce2cfd5828c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641885769491,
+        "stop" : 1641885785891,
+        "duration" : 16400
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fd13511f097a28f3.json",
+  "parameterValues" : [ ]
+}

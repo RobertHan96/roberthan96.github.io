@@ -1,0 +1,74 @@
+{
+  "uid" : "f2f7aa1fd9ee09f9",
+  "name" : "test_note_box",
+  "fullName" : "basic_test#test_note_box",
+  "historyId" : "d6800039ede60f8051281d6912d1cde6",
+  "time" : {
+    "start" : 1663737826983,
+    "stop" : 1663737832776,
+    "duration" : 5793
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7350e472dd181cbf",
+      "name" : "stdout",
+      "source" : "7350e472dd181cbf.txt",
+      "type" : "text/plain",
+      "size" : 188
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "내 정보"
+  }, {
+    "name" : "story",
+    "value" : "쪽지함"
+  }, {
+    "name" : "suite",
+    "value" : "basic_test"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-S8ODV3K"
+  }, {
+    "name" : "thread",
+    "value" : "41864-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "basic_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f2f7aa1fd9ee09f9.json",
+  "parameterValues" : [ ]
+}

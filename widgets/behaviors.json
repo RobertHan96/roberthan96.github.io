@@ -1,0 +1,103 @@
+{
+  "total" : 21,
+  "items" : [ {
+    "uid" : "73fa3294d6169326f4bab3908c01caca",
+    "name" : "회원 라이브 플레이어 기능",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 7,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "4b1095696e5df994c6d2a922ec7bd342",
+    "name" : "비회원 라이브 플레이어 기능",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "a9e465c5b0bb382ca4ca584ed4fa245f",
+    "name" : "설치 후 권한 허용",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "d1643b78b4d44aa5a9830c395dc9b893",
+    "name" : "앱 설치 및 실행",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "0688115642a8b50ee9e4e8ee843dc448",
+    "name" : "내 정보",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 20,
+      "unknown" : 0,
+      "total" : 20
+    }
+  }, {
+    "uid" : "b21c56d1da611854513f26e7f6c9b72b",
+    "name" : "LIVE",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "93c3b310f556425a81646d25acef1050",
+    "name" : "썸네일을 통한 핫이슈 방송 진입",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "b30a889de8d9afc6dad90de08143bf4b",
+    "name" : "로그인 기능",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "5e00d87fb42ff9a13f14878ac9cbe5fe",
+    "name" : "MY",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

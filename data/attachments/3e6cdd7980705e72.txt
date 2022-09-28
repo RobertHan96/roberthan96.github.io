@@ -1,0 +1,6 @@
+kr.co.nowcom.mobile.afreeca:id/iv_search 탭
+afueo021 입력
+kr.co.nowcom.mobile.afreeca:id/iv_search_icon 탭
+kr.co.nowcom.mobile.afreeca:id/iv_search_live_thumbnail 탭
+zlem1212@@ 입력
+kr.co.nowcom.mobile.afreeca:id/tv_ok 탭

@@ -1,0 +1,116 @@
+{
+  "uid" : "89c3322d88ae229b",
+  "name" : "test_chat",
+  "fullName" : "basic_test#test_chat",
+  "historyId" : "38a72cf9e9ca7f63c8d90f0df4195e20",
+  "time" : {
+    "start" : 1663767914515,
+    "stop" : 1663767926748,
+    "duration" : 12233
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 5,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cb43659b854abb97",
+      "name" : "stdout",
+      "source" : "cb43659b854abb97.txt",
+      "type" : "text/plain",
+      "size" : 331
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "채팅 및 이모티콘"
+  }, {
+    "name" : "feature",
+    "value" : "LIVE"
+  }, {
+    "name" : "suite",
+    "value" : "basic_test"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-S8ODV3K"
+  }, {
+    "name" : "thread",
+    "value" : "47052-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "basic_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f2c7ec2b1987c15f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663765665468,
+        "stop" : 1663765678977,
+        "duration" : 13509
+      }
+    }, {
+      "uid" : "de7529005ef0669b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663737763648,
+        "stop" : 1663737774922,
+        "duration" : 11274
+      }
+    }, {
+      "uid" : "18e23a288dd58a77",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663676685914,
+        "stop" : 1663676698128,
+        "duration" : 12214
+      }
+    }, {
+      "uid" : "df27ef6079074e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663676225422,
+        "stop" : 1663676236809,
+        "duration" : 11387
+      }
+    }, {
+      "uid" : "8290edd080327c5b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663675798249,
+        "stop" : 1663675809055,
+        "duration" : 10806
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "89c3322d88ae229b.json",
+  "parameterValues" : [ ]
+}

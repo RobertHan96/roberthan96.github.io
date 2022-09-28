@@ -1,0 +1,74 @@
+{
+  "uid" : "af8f4be6bb497a20",
+  "name" : "test_second_pw_set",
+  "fullName" : "basic_test#test_second_pw_set",
+  "historyId" : "ce2d661aa2a52a55d48f11a1f2f0ae61",
+  "time" : {
+    "start" : 1663765782990,
+    "stop" : 1663765787888,
+    "duration" : 4898
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "254ea8f6e516a8f7",
+      "name" : "stdout",
+      "source" : "254ea8f6e516a8f7.txt",
+      "type" : "text/plain",
+      "size" : 144
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "2차 비밀번호 설정"
+  }, {
+    "name" : "feature",
+    "value" : "내 정보"
+  }, {
+    "name" : "suite",
+    "value" : "basic_test"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-S8ODV3K"
+  }, {
+    "name" : "thread",
+    "value" : "45952-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "basic_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "af8f4be6bb497a20.json",
+  "parameterValues" : [ ]
+}

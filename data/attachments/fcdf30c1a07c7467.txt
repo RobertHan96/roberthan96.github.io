@@ -1,0 +1,2 @@
+kr.co.nowcom.mobile.afreeca:id/cl_thumbnail 탭
+kr.co.nowcom.mobile.afreeca:id/cl_thumbnail 탭

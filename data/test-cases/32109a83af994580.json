@@ -1,0 +1,72 @@
+{
+  "uid" : "32109a83af994580",
+  "name" : "test_tear_down",
+  "fullName" : "basic_test#test_tear_down",
+  "historyId" : "b779a260a1e2fa9cd36f6509dac5ddee",
+  "time" : {
+    "start" : 1663768039836,
+    "stop" : 1663768045766,
+    "duration" : 5930
+  },
+  "status" : "broken",
+  "statusMessage" : "FileNotFoundError: [Errno 2] No such file or directory: 'basic_test__2022-09-21 22_47_19_835899.mp4'",
+  "statusTrace" : "def test_tear_down():\n>       finish_test()\n\nbasic_test.py:281: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nutills\\drivers.py:90: in finish_test\n    gdrive.upload_test_video(file_name=f\"{test_video_file_name}.mp4\")\nutills\\gdrive\\gdrive.py:59: in upload_test_video\n    media = MediaFileUpload(file_name,resumable=True) # resumable : 업로드 재개 가능한지 여부\nc:\\users\\user\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\googleapiclient\\_helpers.py:130: in positional_wrapper\n    return wrapped(*args, **kwargs)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <googleapiclient.http.MediaFileUpload object at 0x0000027303AEEB50>, filename = 'basic_test__2022-09-21 22_47_19_835899.mp4', mimetype = None, chunksize = 104857600, resumable = True\n\n    @util.positional(2)\n    def __init__(\n        self, filename, mimetype=None, chunksize=DEFAULT_CHUNK_SIZE, resumable=False\n    ):\n        \"\"\"Constructor.\n    \n        Args:\n          filename: string, Name of the file.\n          mimetype: string, Mime-type of the file. If None then a mime-type will be\n            guessed from the file extension.\n          chunksize: int, File will be uploaded in chunks of this many bytes. Only\n            used if resumable=True. Pass in a value of -1 if the file is to be\n            uploaded in a single chunk. Note that Google App Engine has a 5MB limit\n            on request size, so you should never set your chunksize larger than 5MB,\n            or to -1.\n          resumable: bool, True if this is a resumable upload. False means upload\n            in a single request.\n        \"\"\"\n        self._fd = None\n        self._filename = filename\n>       self._fd = open(self._filename, \"rb\")\nE       FileNotFoundError: [Errno 2] No such file or directory: 'basic_test__2022-09-21 22_47_19_835899.mp4'\n\nc:\\users\\user\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\googleapiclient\\http.py:594: FileNotFoundError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "FileNotFoundError: [Errno 2] No such file or directory: 'basic_test__2022-09-21 22_47_19_835899.mp4'",
+    "statusTrace" : "def test_tear_down():\n>       finish_test()\n\nbasic_test.py:281: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nutills\\drivers.py:90: in finish_test\n    gdrive.upload_test_video(file_name=f\"{test_video_file_name}.mp4\")\nutills\\gdrive\\gdrive.py:59: in upload_test_video\n    media = MediaFileUpload(file_name,resumable=True) # resumable : 업로드 재개 가능한지 여부\nc:\\users\\user\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\googleapiclient\\_helpers.py:130: in positional_wrapper\n    return wrapped(*args, **kwargs)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <googleapiclient.http.MediaFileUpload object at 0x0000027303AEEB50>, filename = 'basic_test__2022-09-21 22_47_19_835899.mp4', mimetype = None, chunksize = 104857600, resumable = True\n\n    @util.positional(2)\n    def __init__(\n        self, filename, mimetype=None, chunksize=DEFAULT_CHUNK_SIZE, resumable=False\n    ):\n        \"\"\"Constructor.\n    \n        Args:\n          filename: string, Name of the file.\n          mimetype: string, Mime-type of the file. If None then a mime-type will be\n            guessed from the file extension.\n          chunksize: int, File will be uploaded in chunks of this many bytes. Only\n            used if resumable=True. Pass in a value of -1 if the file is to be\n            uploaded in a single chunk. Note that Google App Engine has a 5MB limit\n            on request size, so you should never set your chunksize larger than 5MB,\n            or to -1.\n          resumable: bool, True if this is a resumable upload. False means upload\n            in a single request.\n        \"\"\"\n        self._fd = None\n        self._filename = filename\n>       self._fd = open(self._filename, \"rb\")\nE       FileNotFoundError: [Errno 2] No such file or directory: 'basic_test__2022-09-21 22_47_19_835899.mp4'\n\nc:\\users\\user\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\googleapiclient\\http.py:594: FileNotFoundError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "46261cd5f455fe91",
+      "name" : "stdout",
+      "source" : "46261cd5f455fe91.txt",
+      "type" : "text/plain",
+      "size" : 367
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "basic_test"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-S8ODV3K"
+  }, {
+    "name" : "thread",
+    "value" : "47052-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "basic_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "32109a83af994580.json",
+  "parameterValues" : [ ]
+}

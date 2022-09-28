@@ -1,0 +1,1000 @@
+{
+  "b363eb8d371d9fa78a948318a7f021a8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9f80a31912d344a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654246894509,
+        "stop" : 1654246894993,
+        "duration" : 484
+      }
+    } ]
+  },
+  "fde4b2ad3d4d91f45fae281dcbe60a58" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1e7b4f2232f45bd6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649062680726,
+        "stop" : 1649062685047,
+        "duration" : 4321
+      }
+    } ]
+  },
+  "5128028a7065372ef6f8c8b1345f7f06" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4f4ef7856ae37817",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648730710386,
+        "stop" : 1648730712642,
+        "duration" : 2256
+      }
+    } ]
+  },
+  "41532194420997ca848a257d9d561a27" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8514825ba4cb124a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663767954253,
+        "stop" : 1663767960124,
+        "duration" : 5871
+      }
+    } ]
+  },
+  "0ee4cd1c68732633ba2547817701ade4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3fc5c98831080805",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663767939698,
+        "stop" : 1663767945797,
+        "duration" : 6099
+      }
+    } ]
+  },
+  "a1e710320b7010a99e61c3d941dfbebd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d867aaa51c7bb645",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663767880612,
+        "stop" : 1663767912397,
+        "duration" : 31785
+      }
+    } ]
+  },
+  "38a72cf9e9ca7f63c8d90f0df4195e20" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "89c3322d88ae229b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663767914515,
+        "stop" : 1663767926748,
+        "duration" : 12233
+      }
+    } ]
+  },
+  "1b4606aadd358c91df9130b871f6751a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "75e1169d01b66e36",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648730712642,
+        "stop" : 1648730717939,
+        "duration" : 5297
+      }
+    } ]
+  },
+  "66480e0bb213065cfd79c057cae25619" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "afef014333e99caf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663767960126,
+        "stop" : 1663767966513,
+        "duration" : 6387
+      }
+    } ]
+  },
+  "09ad7910bca24beb6c4f8c2203b01903" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3a3c3a0278bb6158",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663768011249,
+        "stop" : 1663768013958,
+        "duration" : 2709
+      }
+    } ]
+  },
+  "08d6ef69fa14a49a10a884afa043fd48" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5837823fb81d3f3c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663768035344,
+        "stop" : 1663768039834,
+        "duration" : 4490
+      }
+    } ]
+  },
+  "76d664603613ffc785e229320ffa9f9b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1d25743d745eded1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663768406332,
+        "stop" : 1663768430598,
+        "duration" : 24266
+      }
+    } ]
+  },
+  "77d6b29194d78048575b714612216f62" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "24572098126c876",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663767997796,
+        "stop" : 1663768003575,
+        "duration" : 5779
+      }
+    } ]
+  },
+  "b779a260a1e2fa9cd36f6509dac5ddee" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9b30bcd4e1d21256",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'D:/Dev/test_report/basic_test__2022-09-21 22_53_50_599836.mp4.mp4'",
+      "time" : {
+        "start" : 1663768430600,
+        "stop" : 1663768435126,
+        "duration" : 4526
+      }
+    } ]
+  },
+  "426129c107f3d3de2cc05d25511e04e9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b106a1dc82b71d82",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.StaleElementReferenceException: Message: The element 'By.id: kr.co.nowcom.mobile.afreeca:id/iv_more' does not exist in DOM anymore\nStacktrace:\nio.appium.uiautomator2.common.exceptions.StaleElementReferenceException: The element 'By.id: kr.co.nowcom.mobile.afreeca:id/iv_more' does not exist in DOM anymore\n\tat io.appium.uiautomator2.model.ElementsCache.restore(ElementsCache.java:117)\n\tat io.appium.uiautomator2.model.ElementsCache.get(ElementsCache.java:153)\n\tat io.appium.uiautomator2.handler.GetElementAttribute.safeHandle(GetElementAttribute.java:23)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:264)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:258)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:266)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:923)",
+      "time" : {
+        "start" : 1648730717939,
+        "stop" : 1648730721267,
+        "duration" : 3328
+      }
+    } ]
+  },
+  "9aa118fda804d7c5bcfe60e309405269" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c6ccebdfc8ccccd7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663768028097,
+        "stop" : 1663768031157,
+        "duration" : 3060
+      }
+    } ]
+  },
+  "5500fb2aed5fae3ba056d3e04f881391" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5d1caed24c252b01",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\n    at UIA2Proxy.command (C:\\Users\\user\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\jsonwp-proxy\\proxy.js:274:13)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+      "time" : {
+        "start" : 1646638105455,
+        "stop" : 1646638130468,
+        "duration" : 25013
+      }
+    } ]
+  },
+  "5c551c0b0bfda2b407173e7b2ed6fc8b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c0c7c5d5474ea4fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663767994539,
+        "stop" : 1663767997793,
+        "duration" : 3254
+      }
+    } ]
+  },
+  "cbf8143bf3ba0b8859227234343ac3b8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "96f63e34ee804d3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663767972720,
+        "stop" : 1663767976384,
+        "duration" : 3664
+      }
+    } ]
+  },
+  "68559656318cc867b0e054756849a4c5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9c0da420ed0a6079",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663768013961,
+        "stop" : 1663768019834,
+        "duration" : 5873
+      }
+    } ]
+  },
+  "d04bff30881691fcff1d3a9d80bedaf0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "62d63760e6822f25",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654246894997,
+        "stop" : 1654246901163,
+        "duration" : 6166
+      }
+    } ]
+  },
+  "7b789443f245ff9689a12ed43b25c1ca" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "22b7609a09feedcd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663767912399,
+        "stop" : 1663767914512,
+        "duration" : 2113
+      }
+    } ]
+  },
+  "ba55e2be024e708ee55890f62a836c74" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2794db8c42bff27f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654246893251,
+        "stop" : 1654246894494,
+        "duration" : 1243
+      }
+    } ]
+  },
+  "9dff7365c7e33812b2ef730f14882cdf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "23e2cb2c30ef5f1b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\user\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+      "time" : {
+        "start" : 1646638005144,
+        "stop" : 1646638105455,
+        "duration" : 100311
+      }
+    } ]
+  },
+  "b97c124cc5180c3d6c3e2021ece52136" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "efe30835ef424221",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646638130593,
+        "stop" : 1646638131358,
+        "duration" : 765
+      }
+    } ]
+  },
+  "117816a6f26f7716f1557b7476e707a4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5cca8aa24730097e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663768006433,
+        "stop" : 1663768011247,
+        "duration" : 4814
+      }
+    } ]
+  },
+  "353ae07e35efd41cfaec52a8d6d0beec" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "53b3794db786ebef",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\user\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+      "time" : {
+        "start" : 1646637794338,
+        "stop" : 1646637904674,
+        "duration" : 110336
+      }
+    } ]
+  },
+  "26c5e7a0b455b8553170dd23e481d49e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "caea8a20b531ce11",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663767989412,
+        "stop" : 1663767994537,
+        "duration" : 5125
+      }
+    } ]
+  },
+  "1de29090db55f41815b017c1bb716504" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "91cb2dd12286f7c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1660732650168,
+        "stop" : 1660732651182,
+        "duration" : 1014
+      }
+    } ]
+  },
+  "70254a0051586cec7fedb0b45e1d9b62" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "31839503d7525323",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\user\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+      "time" : {
+        "start" : 1646637904752,
+        "stop" : 1646638005141,
+        "duration" : 100389
+      }
+    } ]
+  },
+  "1a726019f1492b339e7ff8fee7d8af5c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fe31661abf55a956",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663767966516,
+        "stop" : 1663767972718,
+        "duration" : 6202
+      }
+    } ]
+  },
+  "d6800039ede60f8051281d6912d1cde6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cd3cb6bbae8f5d9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663767981566,
+        "stop" : 1663767989409,
+        "duration" : 7843
+      }
+    } ]
+  },
+  "04ee7377f601c8eaa97d01964e2275b1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9ed6f1bfcf2da1aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653630898715,
+        "stop" : 1653630899668,
+        "duration" : 953
+      }
+    } ]
+  },
+  "f2a0fcc3b1afb95992fa8f79b097f476" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6658af5ad00aa7ab",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\n    at UIA2Proxy.command (C:\\Users\\user\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\jsonwp-proxy\\proxy.js:274:13)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+      "time" : {
+        "start" : 1646638130562,
+        "stop" : 1646638130578,
+        "duration" : 16
+      }
+    } ]
+  },
+  "973f3910e8544d9175717e896d6b4b65" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4af4a8c71be1bde7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663768392920,
+        "stop" : 1663768406330,
+        "duration" : 13410
+      }
+    } ]
+  },
+  "192db9d525b9ce9bafbf8435618efdb4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2b266d776dd3ad44",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\n    at UIA2Proxy.command (C:\\Users\\user\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\jsonwp-proxy\\proxy.js:274:13)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+      "time" : {
+        "start" : 1646638130531,
+        "stop" : 1646638130546,
+        "duration" : 15
+      }
+    } ]
+  },
+  "21704533520f97db210ca1ea8c177c5a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fd13511f097a28f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649062673972,
+        "stop" : 1649062680726,
+        "duration" : 6754
+      }
+    } ]
+  },
+  "6ea512bbcd471b291b2775d8a528b76b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a794207405f8d605",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663768003578,
+        "stop" : 1663768006431,
+        "duration" : 2853
+      }
+    } ]
+  },
+  "c052938fb77067d411448bd95dc3936b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1a4eca2a3eb3eaab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663767926750,
+        "stop" : 1663767934514,
+        "duration" : 7764
+      }
+    } ]
+  },
+  "afa7e26da3b418374ee1d87780fe0e3f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "57d92a93dfb3f312",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648730721392,
+        "stop" : 1648730725127,
+        "duration" : 3735
+      }
+    } ]
+  },
+  "ce2d661aa2a52a55d48f11a1f2f0ae61" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f3202cfbe2567409",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663768023211,
+        "stop" : 1663768028095,
+        "duration" : 4884
+      }
+    } ]
+  },
+  "d343ea8b92e70ab2b56cf63c86864816" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1114303185335f32",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\user\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+      "time" : {
+        "start" : 1660732651184,
+        "stop" : 1660732751618,
+        "duration" : 100434
+      }
+    } ]
+  },
+  "53ded48a95ab0665caea7823961a9d76" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "17023619dae4fe76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663768031159,
+        "stop" : 1663768035342,
+        "duration" : 4183
+      }
+    } ]
+  },
+  "43f89085ced64b21200383dccecdfbbf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1a14d26386550b27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663768266950,
+        "stop" : 1663768304961,
+        "duration" : 38011
+      }
+    } ]
+  },
+  "78ebd0321a03e6f547d9e115ee8e15f2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5e533f3101f107e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663767934517,
+        "stop" : 1663767939696,
+        "duration" : 5179
+      }
+    } ]
+  },
+  "8b9752808f8f6329943394dcaccca1eb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dd3d15c0118e7a28",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nStacktrace:\nUnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\n    at UIA2Proxy.command (C:\\Users\\user\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\jsonwp-proxy\\proxy.js:274:13)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+      "time" : {
+        "start" : 1646638130499,
+        "stop" : 1646638130515,
+        "duration" : 16
+      }
+    } ]
+  },
+  "ce189754ef3c3f3ba9cd04f9f25a4723" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d18ae184209f9504",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663767945799,
+        "stop" : 1663767954251,
+        "duration" : 8452
+      }
+    } ]
+  },
+  "dd909e7bd2714a203d4bee85850eb4df" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8d374082716387fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649062670052,
+        "stop" : 1649062673972,
+        "duration" : 3920
+      }
+    } ]
+  },
+  "0d5aa74f17f4dcd88d442bf8024ba8ae" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7596762a7630b7db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646637793258,
+        "stop" : 1646637794338,
+        "duration" : 1080
+      }
+    } ]
+  },
+  "b67b9cdf317d9455df4871cfee398cbd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1200fe97a3c96a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663768019836,
+        "stop" : 1663768023209,
+        "duration" : 3373
+      }
+    } ]
+  },
+  "d1fd7cc607da0cf349aaf20c559844db" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7025499b63fdf054",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648730707029,
+        "stop" : 1648730710384,
+        "duration" : 3355
+      }
+    } ]
+  },
+  "b5ddd740edfa191cbaf71e0b4f757e2e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4b9b28861256c8db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1663767976386,
+        "stop" : 1663767981563,
+        "duration" : 5177
+      }
+    } ]
+  }
+}

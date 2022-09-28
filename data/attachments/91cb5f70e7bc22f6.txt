@@ -1,0 +1,1 @@
+kr.co.nowcom.mobile.afreeca:id/ll_logout 체크

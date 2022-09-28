@@ -1,0 +1,72 @@
+{
+  "uid" : "fdea097ff948a9c5",
+  "name" : "test_tear_down",
+  "fullName" : "install_test#test_tear_down",
+  "historyId" : "04ee7377f601c8eaa97d01964e2275b1",
+  "time" : {
+    "start" : 1641885708199,
+    "stop" : 1641885711011,
+    "duration" : 2812
+  },
+  "status" : "broken",
+  "statusMessage" : "FileNotFoundError: [Errno 2] No such file or directory: 'D:/Dev/test_report/install_test_2022-01-11 16_21_48_199269.mp4'",
+  "statusTrace" : "def test_tear_down():\n        print(\"테스트 완료...\")\n>       stop_screen_recording(driver, \"install_test\")\n\ninstall_test.py:40: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ndriver = <appium.webdriver.webdriver.WebDriver (session=\"f83a59b6-0f12-4ddd-a7cd-1b124cb1bd99\")>\nfile_name = 'install_test'\n\n    def stop_screen_recording(driver, file_name):\n        str_time = str(datetime.datetime.now())\n        forrmated_time = str_time.strip().replace(\":\",\"_\").replace(\".\",\"_\")\n        filepath = os.path.join(\"D:/Dev/test_report/\", f\"{file_name}_{forrmated_time}.mp4\")\n        payload = driver.stop_recording_screen()\n>       with open(filepath, \"wb\") as fd:\nE       FileNotFoundError: [Errno 2] No such file or directory: 'D:/Dev/test_report/install_test_2022-01-11 16_21_48_199269.mp4'\n\n..\\utills\\driver_utills.py:13: FileNotFoundError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "FileNotFoundError: [Errno 2] No such file or directory: 'D:/Dev/test_report/install_test_2022-01-11 16_21_48_199269.mp4'",
+    "statusTrace" : "def test_tear_down():\n        print(\"테스트 완료...\")\n>       stop_screen_recording(driver, \"install_test\")\n\ninstall_test.py:40: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ndriver = <appium.webdriver.webdriver.WebDriver (session=\"f83a59b6-0f12-4ddd-a7cd-1b124cb1bd99\")>\nfile_name = 'install_test'\n\n    def stop_screen_recording(driver, file_name):\n        str_time = str(datetime.datetime.now())\n        forrmated_time = str_time.strip().replace(\":\",\"_\").replace(\".\",\"_\")\n        filepath = os.path.join(\"D:/Dev/test_report/\", f\"{file_name}_{forrmated_time}.mp4\")\n        payload = driver.stop_recording_screen()\n>       with open(filepath, \"wb\") as fd:\nE       FileNotFoundError: [Errno 2] No such file or directory: 'D:/Dev/test_report/install_test_2022-01-11 16_21_48_199269.mp4'\n\n..\\utills\\driver_utills.py:13: FileNotFoundError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "637252761abe4044",
+      "name" : "stdout",
+      "source" : "637252761abe4044.txt",
+      "type" : "text/plain",
+      "size" : 20
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "install_test"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-S8ODV3K"
+  }, {
+    "name" : "thread",
+    "value" : "6232-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "install_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fdea097ff948a9c5.json",
+  "parameterValues" : [ ]
+}

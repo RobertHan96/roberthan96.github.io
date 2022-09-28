@@ -1,0 +1,149 @@
+{
+  "uid" : "62d63760e6822f25",
+  "name" : "test_tear_down",
+  "fullName" : "tests.install_test#test_tear_down",
+  "historyId" : "d04bff30881691fcff1d3a9d80bedaf0",
+  "time" : {
+    "start" : 1654246894997,
+    "stop" : 1654246901163,
+    "duration" : 6166
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 9,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "62bef3923bc46389",
+      "name" : "stdout",
+      "source" : "62bef3923bc46389.txt",
+      "type" : "text/plain",
+      "size" : 356
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "install_test"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-S8ODV3K"
+  }, {
+    "name" : "thread",
+    "value" : "18824-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.install_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b133be150f79a285",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654244699301,
+        "stop" : 1654244705366,
+        "duration" : 6065
+      }
+    }, {
+      "uid" : "e118e59d25526fb5",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'install_test_2022-06-03 17_21_38_544659.mp4'",
+      "time" : {
+        "start" : 1654244498545,
+        "stop" : 1654244501389,
+        "duration" : 2844
+      }
+    }, {
+      "uid" : "227123b9fa809432",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654244319512,
+        "stop" : 1654244322693,
+        "duration" : 3181
+      }
+    }, {
+      "uid" : "67a21b67d4c89d3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654244014871,
+        "stop" : 1654244018520,
+        "duration" : 3649
+      }
+    }, {
+      "uid" : "111db721dea90bae",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'install_test_2022-06-03 14_50_38_028534.mp4'",
+      "time" : {
+        "start" : 1654235438028,
+        "stop" : 1654235441135,
+        "duration" : 3107
+      }
+    }, {
+      "uid" : "d334e77004eae5b3",
+      "status" : "broken",
+      "statusDetails" : "TypeError: get_test_name() missing 1 required positional argument: 'test_name'",
+      "time" : {
+        "start" : 1654235225986,
+        "stop" : 1654235225986,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "45da8c7458fef63d",
+      "status" : "broken",
+      "statusDetails" : "pydrive.settings.InvalidConfigError: Invalid client secrets file ('Error opening file', 'client_secrets.json', 'No such file or directory', 2)",
+      "time" : {
+        "start" : 1654233470682,
+        "stop" : 1654233471745,
+        "duration" : 1063
+      }
+    }, {
+      "uid" : "63f59c53cb15252c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654225852666,
+        "stop" : 1654225854406,
+        "duration" : 1740
+      }
+    }, {
+      "uid" : "94108bb36da64619",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654224099089,
+        "stop" : 1654224100111,
+        "duration" : 1022
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "62d63760e6822f25.json",
+  "parameterValues" : [ ]
+}

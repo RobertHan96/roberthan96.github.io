@@ -1,0 +1,2 @@
+kr.co.nowcom.mobile.afreeca:id/ll_change_pass 탭
+/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[2]/android.widget.Button 체크

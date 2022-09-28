@@ -1,0 +1,75 @@
+{
+  "uid" : "111db721dea90bae",
+  "name" : "test_tear_down",
+  "fullName" : "tests.install_test#test_tear_down",
+  "historyId" : "d04bff30881691fcff1d3a9d80bedaf0",
+  "time" : {
+    "start" : 1654235438028,
+    "stop" : 1654235441135,
+    "duration" : 3107
+  },
+  "status" : "broken",
+  "statusMessage" : "FileNotFoundError: [Errno 2] No such file or directory: 'install_test_2022-06-03 14_50_38_028534.mp4'",
+  "statusTrace" : "def test_tear_down():\n        print('테스트 완료...') # 테스트 완료 여부를 print로 표시\n        test_video_name = get_test_name('install_test')\n        stop_screen_recording(driver, test_video_name) # test_setup()함수에서 시작한 녹화를 멈추고, install_test.mp4 파일로 저장\n>       GoogleDriveManager.upload_test_video(file_name=f\"{test_video_name}.mp4\")\n\ntests\\install_test.py:60: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nutills\\gdrive\\gdrive.py:17: in upload_test_video\n    file2.SetContentFile(file_name)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = GoogleDriveFile({'parents': [{'id': '1fZk9HpAYbkgPc42eunKSpAdAZCepuamp'}]}), filename = 'install_test_2022-06-03 14_50_38_028534.mp4'\n\n    def SetContentFile(self, filename):\n      \"\"\"Set content of this file from a file.\n    \n      Opens the file specified by this method.\n      Will be read, uploaded, and closed by Upload() method.\n      Sets metadata 'title' and 'mimeType' automatically if not specified.\n    \n      :param filename: name of the file to be uploaded.\n      :type filename: str.\n      \"\"\"\n>     self.content = open(filename, 'rb')\nE     FileNotFoundError: [Errno 2] No such file or directory: 'install_test_2022-06-03 14_50_38_028534.mp4'\n\nc:\\users\\user\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pydrive\\files.py:169: FileNotFoundError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "FileNotFoundError: [Errno 2] No such file or directory: 'install_test_2022-06-03 14_50_38_028534.mp4'",
+    "statusTrace" : "def test_tear_down():\n        print('테스트 완료...') # 테스트 완료 여부를 print로 표시\n        test_video_name = get_test_name('install_test')\n        stop_screen_recording(driver, test_video_name) # test_setup()함수에서 시작한 녹화를 멈추고, install_test.mp4 파일로 저장\n>       GoogleDriveManager.upload_test_video(file_name=f\"{test_video_name}.mp4\")\n\ntests\\install_test.py:60: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nutills\\gdrive\\gdrive.py:17: in upload_test_video\n    file2.SetContentFile(file_name)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = GoogleDriveFile({'parents': [{'id': '1fZk9HpAYbkgPc42eunKSpAdAZCepuamp'}]}), filename = 'install_test_2022-06-03 14_50_38_028534.mp4'\n\n    def SetContentFile(self, filename):\n      \"\"\"Set content of this file from a file.\n    \n      Opens the file specified by this method.\n      Will be read, uploaded, and closed by Upload() method.\n      Sets metadata 'title' and 'mimeType' automatically if not specified.\n    \n      :param filename: name of the file to be uploaded.\n      :type filename: str.\n      \"\"\"\n>     self.content = open(filename, 'rb')\nE     FileNotFoundError: [Errno 2] No such file or directory: 'install_test_2022-06-03 14_50_38_028534.mp4'\n\nc:\\users\\user\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pydrive\\files.py:169: FileNotFoundError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fb55ce12b3070b6",
+      "name" : "stdout",
+      "source" : "fb55ce12b3070b6.txt",
+      "type" : "text/plain",
+      "size" : 356
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "install_test"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-S8ODV3K"
+  }, {
+    "name" : "thread",
+    "value" : "31496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.install_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "111db721dea90bae.json",
+  "parameterValues" : [ ]
+}

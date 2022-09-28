@@ -1,0 +1,74 @@
+{
+  "uid" : "c0ed53b9c53a261",
+  "name" : "test_serach_screet_broadcast",
+  "fullName" : "basic_test#test_serach_screet_broadcast",
+  "historyId" : "43f89085ced64b21200383dccecdfbbf",
+  "time" : {
+    "start" : 1663765487551,
+    "stop" : 1663765510390,
+    "duration" : 22839
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7f5bd6ebdc37bce5",
+      "name" : "stdout",
+      "source" : "7f5bd6ebdc37bce5.txt",
+      "type" : "text/plain",
+      "size" : 4019
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "LIVE"
+  }, {
+    "name" : "story",
+    "value" : "방송 검색"
+  }, {
+    "name" : "suite",
+    "value" : "basic_test"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-S8ODV3K"
+  }, {
+    "name" : "thread",
+    "value" : "15064-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "basic_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c0ed53b9c53a261.json",
+  "parameterValues" : [ ]
+}

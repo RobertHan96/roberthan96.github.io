@@ -1,0 +1,58 @@
+{
+  "uid" : "79ed1b8a0247209",
+  "name" : "test_login",
+  "fullName" : "login_test#test_login",
+  "historyId" : "21704533520f97db210ca1ea8c177c5a",
+  "time" : {
+    "start" : 1642136983608,
+    "stop" : 1642136990737,
+    "duration" : 7129
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "로그인 기능"
+  }, {
+    "name" : "story",
+    "value" : "지정된 계정정보로 로그인"
+  }, {
+    "name" : "suite",
+    "value" : "login_test"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-S8ODV3K"
+  }, {
+    "name" : "thread",
+    "value" : "16188-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "login_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "79ed1b8a0247209.json",
+  "parameterValues" : [ ]
+}

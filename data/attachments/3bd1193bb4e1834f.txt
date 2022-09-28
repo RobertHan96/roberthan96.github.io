@@ -1,0 +1,7 @@
+kr.co.nowcom.mobile.afreeca:id/cl_thumbnail 탭
+채팅 테스트 입력 Test 1234 !@#$ :) // 입력
+kr.co.nowcom.mobile.afreeca:id/tv_send_chat 탭
+kr.co.nowcom.mobile.afreeca:id/cl_thumbnail 탭
+kr.co.nowcom.mobile.afreeca:id/iv_emoticon 탭
+kr.co.nowcom.mobile.afreeca:id/item 탭
+kr.co.nowcom.mobile.afreeca:id/tv_send_chat 탭

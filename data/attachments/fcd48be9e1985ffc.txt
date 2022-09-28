@@ -1,0 +1,3 @@
+kr.co.nowcom.mobile.afreeca:id/rl_point 탭
+//android.view.View[@content-desc='포인트 내역']/android.widget.TextView 체크
+kr.co.nowcom.mobile.afreeca:id/inapp_webview_close_btn 탭

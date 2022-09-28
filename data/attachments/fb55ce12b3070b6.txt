@@ -1,0 +1,6 @@
+테스트 완료...
+Your browser has been opened to visit:
+
+    https://accounts.google.com/o/oauth2/auth?client_id=220672782084-iehag6quvoaqsfktqrojr0ldq95d8krc.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2F&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive&access_type=offline&response_type=code
+
+Authentication successful.

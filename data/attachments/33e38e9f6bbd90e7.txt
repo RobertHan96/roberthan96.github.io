@@ -1,0 +1,2 @@
+스크롤 했지만 kr.co.nowcom.mobile.afreeca:id/ll_logout 를 찾지 못함
+kr.co.nowcom.mobile.afreeca:id/ll_logout 체크

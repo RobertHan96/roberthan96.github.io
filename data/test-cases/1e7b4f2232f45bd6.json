@@ -1,0 +1,159 @@
+{
+  "uid" : "1e7b4f2232f45bd6",
+  "name" : "test_tear_down",
+  "fullName" : "login_test#test_tear_down",
+  "historyId" : "fde4b2ad3d4d91f45fae281dcbe60a58",
+  "time" : {
+    "start" : 1649062680726,
+    "stop" : 1649062685047,
+    "duration" : 4321
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 11,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "13ed4b51e32b8210",
+      "name" : "stdout",
+      "source" : "13ed4b51e32b8210.txt",
+      "type" : "text/plain",
+      "size" : 20
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "login_test"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-S8ODV3K"
+  }, {
+    "name" : "thread",
+    "value" : "106092-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "login_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "18ce573e82ba0c13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649050414650,
+        "stop" : 1649050418197,
+        "duration" : 3547
+      }
+    }, {
+      "uid" : "52c1dc82d43b75b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646638250093,
+        "stop" : 1646638251987,
+        "duration" : 1894
+      }
+    }, {
+      "uid" : "bd79cdbc98beaa3d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646632209509,
+        "stop" : 1646632210645,
+        "duration" : 1136
+      }
+    }, {
+      "uid" : "f912fef6f39f30e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646380106801,
+        "stop" : 1646380107924,
+        "duration" : 1123
+      }
+    }, {
+      "uid" : "478f95a2da9b00ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645008947501,
+        "stop" : 1645008951968,
+        "duration" : 4467
+      }
+    }, {
+      "uid" : "a6a5bd068f82d528",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642267508940,
+        "stop" : 1642267510072,
+        "duration" : 1132
+      }
+    }, {
+      "uid" : "4d5bb2fbf06f1693",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642136990739,
+        "stop" : 1642136991921,
+        "duration" : 1182
+      }
+    }, {
+      "uid" : "c676b376050dc79f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642125269767,
+        "stop" : 1642125271000,
+        "duration" : 1233
+      }
+    }, {
+      "uid" : "a9fcd7dcaaa6f805",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642124417438,
+        "stop" : 1642124420482,
+        "duration" : 3044
+      }
+    }, {
+      "uid" : "92d17ff3cfc06822",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641891225305,
+        "stop" : 1641891226407,
+        "duration" : 1102
+      }
+    }, {
+      "uid" : "1f924b8c424dfc0d",
+      "status" : "broken",
+      "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'D:/Dev/test_report/login_test_2022-01-11 16_23_05_893186.mp4'",
+      "time" : {
+        "start" : 1641885785893,
+        "stop" : 1641885788856,
+        "duration" : 2963
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1e7b4f2232f45bd6.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,74 @@
+{
+  "uid" : "34c4f963e8013753",
+  "name" : "test_my_balloon",
+  "fullName" : "basic_test#test_my_balloon",
+  "historyId" : "b5ddd740edfa191cbaf71e0b4f757e2e",
+  "time" : {
+    "start" : 1663765734102,
+    "stop" : 1663765740260,
+    "duration" : 6158
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "be0bfc64a8e0f821",
+      "name" : "stdout",
+      "source" : "be0bfc64a8e0f821.txt",
+      "type" : "text/plain",
+      "size" : 146
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "내 별풍선, 아이템"
+  }, {
+    "name" : "feature",
+    "value" : "내 정보"
+  }, {
+    "name" : "suite",
+    "value" : "basic_test"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-S8ODV3K"
+  }, {
+    "name" : "thread",
+    "value" : "45952-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "basic_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "34c4f963e8013753.json",
+  "parameterValues" : [ ]
+}

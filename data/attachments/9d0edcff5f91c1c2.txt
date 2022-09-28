@@ -1,0 +1,12 @@
+kr.co.nowcom.mobile.afreeca:id/iv_more 탭
+kr.co.nowcom.mobile.afreeca:id/ll_option_quality 탭
+kr.co.nowcom.mobile.afreeca:id/tv_original_quality 탭
+kr.co.nowcom.mobile.afreeca:id/iv_more 탭
+kr.co.nowcom.mobile.afreeca:id/ll_option_quality 탭
+kr.co.nowcom.mobile.afreeca:id/ll_quality_high 탭
+kr.co.nowcom.mobile.afreeca:id/iv_more 탭
+kr.co.nowcom.mobile.afreeca:id/ll_option_quality 탭
+kr.co.nowcom.mobile.afreeca:id/ll_quality_normal 탭
+kr.co.nowcom.mobile.afreeca:id/iv_more 탭
+kr.co.nowcom.mobile.afreeca:id/ll_option_quality 탭
+kr.co.nowcom.mobile.afreeca:id/ll_quality_low 탭

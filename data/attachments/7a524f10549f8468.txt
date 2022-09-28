@@ -1,0 +1,3 @@
+kr.co.nowcom.mobile.afreeca:id/rl_story_box 탭
+kr.co.nowcom.mobile.afreeca:id/tv_filter 체크
+//android.widget.RelativeLayout[@content-desc='뒤로가기'] 탭

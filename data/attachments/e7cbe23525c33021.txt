@@ -1,0 +1,4 @@
+kr.co.nowcom.mobile.afreeca:id/iv_change_nickname 탭
+kr.co.nowcom.mobile.afreeca:id/button_change_nickname_check 체크
+kr.co.nowcom.mobile.afreeca:id/info_nickname_change 체크
+kr.co.nowcom.mobile.afreeca:id/tv_cancel 탭

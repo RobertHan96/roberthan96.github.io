@@ -1,0 +1,74 @@
+{
+  "uid" : "5cbfa26f17846f1d",
+  "name" : "test_video_qaulity",
+  "fullName" : "basic_test#test_video_qaulity",
+  "historyId" : "a1e710320b7010a99e61c3d941dfbebd",
+  "time" : {
+    "start" : 1663675767700,
+    "stop" : 1663675796297,
+    "duration" : 28597
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1604c2b26e213307",
+      "name" : "stdout",
+      "source" : "1604c2b26e213307.txt",
+      "type" : "text/plain",
+      "size" : 593
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "화질 변경"
+  }, {
+    "name" : "feature",
+    "value" : "LIVE"
+  }, {
+    "name" : "suite",
+    "value" : "basic_test"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-S8ODV3K"
+  }, {
+    "name" : "thread",
+    "value" : "37880-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "basic_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5cbfa26f17846f1d.json",
+  "parameterValues" : [ ]
+}

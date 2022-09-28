@@ -1,0 +1,2 @@
+kr.co.nowcom.mobile.afreeca:id/ll_account_link 탭
+/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View/android.widget.TextView[1] 체크

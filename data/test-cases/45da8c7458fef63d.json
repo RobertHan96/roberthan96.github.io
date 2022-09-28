@@ -1,0 +1,75 @@
+{
+  "uid" : "45da8c7458fef63d",
+  "name" : "test_tear_down",
+  "fullName" : "tests.install_test#test_tear_down",
+  "historyId" : "d04bff30881691fcff1d3a9d80bedaf0",
+  "time" : {
+    "start" : 1654233470682,
+    "stop" : 1654233471745,
+    "duration" : 1063
+  },
+  "status" : "broken",
+  "statusMessage" : "pydrive.settings.InvalidConfigError: Invalid client secrets file ('Error opening file', 'client_secrets.json', 'No such file or directory', 2)",
+  "statusTrace" : "filename = 'client_secrets.json'\n\n    def _loadfile(filename):\n        try:\n>           with open(filename, 'r') as fp:\nE           FileNotFoundError: [Errno 2] No such file or directory: 'client_secrets.json'\n\nc:\\users\\user\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\oauth2client\\clientsecrets.py:121: FileNotFoundError\n\nDuring handling of the above exception, another exception occurred:\n\nself = <pydrive.auth.GoogleAuth object at 0x0000023599150EB0>, client_config_file = 'client_secrets.json'\n\n    def LoadClientConfigFile(self, client_config_file=None):\n      \"\"\"Loads client configuration file downloaded from APIs console.\n    \n      Loads client config file from path in settings if not specified.\n    \n      :param client_config_file: path of client config file to read.\n      :type client_config_file: str.\n      :raises: InvalidConfigError\n      \"\"\"\n      if client_config_file is None:\n        client_config_file = self.settings['client_config_file']\n      try:\n>       client_type, client_info = clientsecrets.loadfile(client_config_file)\n\nc:\\users\\user\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pydrive\\auth.py:386: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nfilename = 'client_secrets.json', cache = None\n\n    def loadfile(filename, cache=None):\n        \"\"\"Loading of client_secrets JSON file, optionally backed by a cache.\n    \n        Typical cache storage would be App Engine memcache service,\n        but you can pass in any other cache client that implements\n        these methods:\n    \n        * ``get(key, namespace=ns)``\n        * ``set(key, value, namespace=ns)``\n    \n        Usage::\n    \n            # without caching\n            client_type, client_info = loadfile('secrets.json')\n            # using App Engine memcache service\n            from google.appengine.api import memcache\n            client_type, client_info = loadfile('secrets.json', cache=memcache)\n    \n        Args:\n            filename: string, Path to a client_secrets.json file on a filesystem.\n            cache: An optional cache service client that implements get() and set()\n            methods. If not specified, the file is always being loaded from\n                     a filesystem.\n    \n        Raises:\n            InvalidClientSecretsError: In case of a validation error or some\n                                       I/O failure. Can happen only on cache miss.\n    \n        Returns:\n            (client_type, client_info) tuple, as _loadfile() normally would.\n            JSON contents is validated only during first load. Cache hits are not\n            validated.\n        \"\"\"\n        _SECRET_NAMESPACE = 'oauth2client:secrets#ns'\n    \n        if not cache:\n>           return _loadfile(filename)\n\nc:\\users\\user\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\oauth2client\\clientsecrets.py:165: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nfilename = 'client_secrets.json'\n\n    def _loadfile(filename):\n        try:\n            with open(filename, 'r') as fp:\n                obj = json.load(fp)\n        except IOError as exc:\n>           raise InvalidClientSecretsError('Error opening file', exc.filename,\n                                            exc.strerror, exc.errno)\nE           oauth2client.clientsecrets.InvalidClientSecretsError: ('Error opening file', 'client_secrets.json', 'No such file or directory', 2)\n\nc:\\users\\user\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\oauth2client\\clientsecrets.py:124: InvalidClientSecretsError\n\nDuring handling of the above exception, another exception occurred:\n\n    def test_tear_down():\n        print('테스트 완료...') # 테스트 완료 여부를 print로 표시\n        stop_screen_recording(driver, 'install_test') # test_setup()함수에서 시작한 녹화를 멈추고, install_test.mp4 파일로 저장\n>       upload_test_vidoe('install_test')\n\ntests\\install_test.py:57: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nutills\\driver_utills.py:22: in upload_test_vidoe\n    gauth.LocalWebserverAuth()\nc:\\users\\user\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pydrive\\auth.py:113: in _decorated\n    self.GetFlow()\nc:\\users\\user\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pydrive\\auth.py:443: in GetFlow\n    self.LoadClientConfig()\nc:\\users\\user\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pydrive\\auth.py:366: in LoadClientConfig\n    self.LoadClientConfigFile()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <pydrive.auth.GoogleAuth object at 0x0000023599150EB0>, client_config_file = 'client_secrets.json'\n\n    def LoadClientConfigFile(self, client_config_file=None):\n      \"\"\"Loads client configuration file downloaded from APIs console.\n    \n      Loads client config file from path in settings if not specified.\n    \n      :param client_config_file: path of client config file to read.\n      :type client_config_file: str.\n      :raises: InvalidConfigError\n      \"\"\"\n      if client_config_file is None:\n        client_config_file = self.settings['client_config_file']\n      try:\n        client_type, client_info = clientsecrets.loadfile(client_config_file)\n      except clientsecrets.InvalidClientSecretsError as error:\n>       raise InvalidConfigError('Invalid client secrets file %s' % error)\nE       pydrive.settings.InvalidConfigError: Invalid client secrets file ('Error opening file', 'client_secrets.json', 'No such file or directory', 2)\n\nc:\\users\\user\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pydrive\\auth.py:388: InvalidConfigError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "pydrive.settings.InvalidConfigError: Invalid client secrets file ('Error opening file', 'client_secrets.json', 'No such file or directory', 2)",
+    "statusTrace" : "filename = 'client_secrets.json'\n\n    def _loadfile(filename):\n        try:\n>           with open(filename, 'r') as fp:\nE           FileNotFoundError: [Errno 2] No such file or directory: 'client_secrets.json'\n\nc:\\users\\user\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\oauth2client\\clientsecrets.py:121: FileNotFoundError\n\nDuring handling of the above exception, another exception occurred:\n\nself = <pydrive.auth.GoogleAuth object at 0x0000023599150EB0>, client_config_file = 'client_secrets.json'\n\n    def LoadClientConfigFile(self, client_config_file=None):\n      \"\"\"Loads client configuration file downloaded from APIs console.\n    \n      Loads client config file from path in settings if not specified.\n    \n      :param client_config_file: path of client config file to read.\n      :type client_config_file: str.\n      :raises: InvalidConfigError\n      \"\"\"\n      if client_config_file is None:\n        client_config_file = self.settings['client_config_file']\n      try:\n>       client_type, client_info = clientsecrets.loadfile(client_config_file)\n\nc:\\users\\user\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pydrive\\auth.py:386: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nfilename = 'client_secrets.json', cache = None\n\n    def loadfile(filename, cache=None):\n        \"\"\"Loading of client_secrets JSON file, optionally backed by a cache.\n    \n        Typical cache storage would be App Engine memcache service,\n        but you can pass in any other cache client that implements\n        these methods:\n    \n        * ``get(key, namespace=ns)``\n        * ``set(key, value, namespace=ns)``\n    \n        Usage::\n    \n            # without caching\n            client_type, client_info = loadfile('secrets.json')\n            # using App Engine memcache service\n            from google.appengine.api import memcache\n            client_type, client_info = loadfile('secrets.json', cache=memcache)\n    \n        Args:\n            filename: string, Path to a client_secrets.json file on a filesystem.\n            cache: An optional cache service client that implements get() and set()\n            methods. If not specified, the file is always being loaded from\n                     a filesystem.\n    \n        Raises:\n            InvalidClientSecretsError: In case of a validation error or some\n                                       I/O failure. Can happen only on cache miss.\n    \n        Returns:\n            (client_type, client_info) tuple, as _loadfile() normally would.\n            JSON contents is validated only during first load. Cache hits are not\n            validated.\n        \"\"\"\n        _SECRET_NAMESPACE = 'oauth2client:secrets#ns'\n    \n        if not cache:\n>           return _loadfile(filename)\n\nc:\\users\\user\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\oauth2client\\clientsecrets.py:165: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nfilename = 'client_secrets.json'\n\n    def _loadfile(filename):\n        try:\n            with open(filename, 'r') as fp:\n                obj = json.load(fp)\n        except IOError as exc:\n>           raise InvalidClientSecretsError('Error opening file', exc.filename,\n                                            exc.strerror, exc.errno)\nE           oauth2client.clientsecrets.InvalidClientSecretsError: ('Error opening file', 'client_secrets.json', 'No such file or directory', 2)\n\nc:\\users\\user\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\oauth2client\\clientsecrets.py:124: InvalidClientSecretsError\n\nDuring handling of the above exception, another exception occurred:\n\n    def test_tear_down():\n        print('테스트 완료...') # 테스트 완료 여부를 print로 표시\n        stop_screen_recording(driver, 'install_test') # test_setup()함수에서 시작한 녹화를 멈추고, install_test.mp4 파일로 저장\n>       upload_test_vidoe('install_test')\n\ntests\\install_test.py:57: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nutills\\driver_utills.py:22: in upload_test_vidoe\n    gauth.LocalWebserverAuth()\nc:\\users\\user\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pydrive\\auth.py:113: in _decorated\n    self.GetFlow()\nc:\\users\\user\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pydrive\\auth.py:443: in GetFlow\n    self.LoadClientConfig()\nc:\\users\\user\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pydrive\\auth.py:366: in LoadClientConfig\n    self.LoadClientConfigFile()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <pydrive.auth.GoogleAuth object at 0x0000023599150EB0>, client_config_file = 'client_secrets.json'\n\n    def LoadClientConfigFile(self, client_config_file=None):\n      \"\"\"Loads client configuration file downloaded from APIs console.\n    \n      Loads client config file from path in settings if not specified.\n    \n      :param client_config_file: path of client config file to read.\n      :type client_config_file: str.\n      :raises: InvalidConfigError\n      \"\"\"\n      if client_config_file is None:\n        client_config_file = self.settings['client_config_file']\n      try:\n        client_type, client_info = clientsecrets.loadfile(client_config_file)\n      except clientsecrets.InvalidClientSecretsError as error:\n>       raise InvalidConfigError('Invalid client secrets file %s' % error)\nE       pydrive.settings.InvalidConfigError: Invalid client secrets file ('Error opening file', 'client_secrets.json', 'No such file or directory', 2)\n\nc:\\users\\user\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\pydrive\\auth.py:388: InvalidConfigError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c5082a5cc3f3ff32",
+      "name" : "stdout",
+      "source" : "c5082a5cc3f3ff32.txt",
+      "type" : "text/plain",
+      "size" : 20
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "install_test"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-S8ODV3K"
+  }, {
+    "name" : "thread",
+    "value" : "10640-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.install_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "45da8c7458fef63d.json",
+  "parameterValues" : [ ]
+}

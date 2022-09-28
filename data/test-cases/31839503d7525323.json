@@ -1,0 +1,149 @@
+{
+  "uid" : "31839503d7525323",
+  "name" : "test_video_qaulity",
+  "fullName" : "user_live_player_test#test_video_qaulity",
+  "historyId" : "70254a0051586cec7fedb0b45e1d9b62",
+  "time" : {
+    "start" : 1646637904752,
+    "stop" : 1646638005141,
+    "duration" : 100389
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\user\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+  "statusTrace" : "@allure.feature('회원 라이브 플레이어 기능')\n    @allure.story('영상품질 변경')\n    def test_video_qaulity():\n>       change_video_qaulity(LivePlayerElementsId.OriginalQaulityBtn.value)\n\nuser_live_player_test.py:53: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nuser_live_player_test.py:126: in change_video_qaulity\n    three_dotmenu = WebDriverWait(driver, wait_second).until(EC.element_to_be_clickable((By.ID, LivePlayerElementsId.ThreeDotMenuBtn.value)))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"8691af50-db89-4f4f-8c2c-95100227828a\")>\nmethod = <function element_to_be_clickable.<locals>._predicate at 0x00000264E29D9550>, message = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value does not evaluate to ``False``.\n    \n        :param method: callable(WebDriver)\n        :param message: optional message for :exc:`TimeoutException`\n        :returns: the result of the last call to `method`\n        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs\n        \"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except InvalidSelectorException as e:\n                raise e\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message: \nE       Stacktrace:\nE       NoSuchElementError: An element could not be located on the page using the given search parameters.\nE           at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\user\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\nE           at runMicrotasks (<anonymous>)\nE           at processTicksAndRejections (internal/process/task_queues.js:85:5)\n\nc:\\users\\user\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:89: TimeoutException",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 10,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "회원 라이브 플레이어 기능"
+  }, {
+    "name" : "story",
+    "value" : "영상품질 변경"
+  }, {
+    "name" : "suite",
+    "value" : "user_live_player_test"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-S8ODV3K"
+  }, {
+    "name" : "thread",
+    "value" : "14764-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "user_live_player_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ec43eac02454c3c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645009354630,
+        "stop" : 1645009394839,
+        "duration" : 40209
+      }
+    }, {
+      "uid" : "7c6b7329b3990b6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645009237645,
+        "stop" : 1645009265417,
+        "duration" : 27772
+      }
+    }, {
+      "uid" : "4ac9c800b08c8a96",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\user\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+      "time" : {
+        "start" : 1645009069121,
+        "stop" : 1645009169188,
+        "duration" : 100067
+      }
+    }, {
+      "uid" : "308908a92454e77e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642561715771,
+        "stop" : 1642561742468,
+        "duration" : 26697
+      }
+    }, {
+      "uid" : "ec4aec000c83323a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642560589381,
+        "stop" : 1642560616661,
+        "duration" : 27280
+      }
+    }, {
+      "uid" : "51b2d4ba44151a4e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642556728046,
+        "stop" : 1642556755667,
+        "duration" : 27621
+      }
+    }, {
+      "uid" : "de70185bb2262f2",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\user\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+      "time" : {
+        "start" : 1642137300863,
+        "stop" : 1642137400923,
+        "duration" : 100060
+      }
+    }, {
+      "uid" : "6644957581872deb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642125540453,
+        "stop" : 1642125551648,
+        "duration" : 11195
+      }
+    }, {
+      "uid" : "e6b6e64087fb16fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642125185702,
+        "stop" : 1642125212294,
+        "duration" : 26592
+      }
+    }, {
+      "uid" : "c85d74b4b93fddfc",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\user\\AppData\\Local\\Programs\\Appium Server GUI\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n    at processTicksAndRejections (internal/process/task_queues.js:85:5)",
+      "time" : {
+        "start" : 1642064733735,
+        "stop" : 1642064834414,
+        "duration" : 100679
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "31839503d7525323.json",
+  "parameterValues" : [ ]
+}

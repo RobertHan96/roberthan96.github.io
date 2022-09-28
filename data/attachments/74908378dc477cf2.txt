@@ -1,0 +1,12 @@
+kr.co.nowcom.mobile.afreeca:id/tv_cancel 탭
+kr.co.nowcom.mobile.afreeca:id/notice_close_btn 찾음
+kr.co.nowcom.mobile.afreeca:id/notice_close_btn 탭
+kr.co.nowcom.mobile.afreeca:id/iv_close 못찾았지만 pass
+kr.co.nowcom.mobile.afreeca:id/iv_profile 탭
+gkfngkfn313t 입력
+kr.co.nowcom.mobile.afreeca:id/password_edit 탭
+afreeca1212 입력
+kr.co.nowcom.mobile.afreeca:id/login_button 탭
+kr.co.nowcom.mobile.afreeca:id/tv_cancel 찾음
+kr.co.nowcom.mobile.afreeca:id/tv_cancel 탭
+kr.co.nowcom.mobile.afreeca:id/tv_cancel 못찾았지만 pass

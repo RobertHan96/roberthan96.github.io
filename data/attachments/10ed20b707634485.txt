@@ -1,0 +1,2 @@
+kr.co.nowcom.mobile.afreeca:id/ll_logout 탭
+kr.co.nowcom.mobile.afreeca:id/iv_menu_logo 체크

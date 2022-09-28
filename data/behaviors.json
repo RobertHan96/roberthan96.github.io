@@ -1,0 +1,1103 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "test_setup",
+    "uid" : "7596762a7630b7db",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646637793258,
+      "stop" : 1646637794338,
+      "duration" : 1080
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 15,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "회원 라이브 플레이어 기능",
+    "children" : [ {
+      "name" : "지정된 비밀번호 방송 검색 후 진입",
+      "children" : [ {
+        "name" : "test_serach_screet_broadcast",
+        "uid" : "53b3794db786ebef",
+        "parentUid" : "633084853eafe03e0e4a5aeca7f986f4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646637794338,
+          "stop" : 1646637904674,
+          "duration" : 110336
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 11,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "633084853eafe03e0e4a5aeca7f986f4"
+    }, {
+      "name" : "영상품질 변경",
+      "children" : [ {
+        "name" : "test_video_qaulity",
+        "uid" : "31839503d7525323",
+        "parentUid" : "fedabf97489f7edf6777188773f48646",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646637904752,
+          "stop" : 1646638005141,
+          "duration" : 100389
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 10,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fedabf97489f7edf6777188773f48646"
+    }, {
+      "name" : "UP 버튼",
+      "children" : [ {
+        "name" : "test_honeyjam_btn",
+        "uid" : "23e2cb2c30ef5f1b",
+        "parentUid" : "8172533ea5ecc1f183a2fb2b45e00d5f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646638005144,
+          "stop" : 1646638105455,
+          "duration" : 100311
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 9,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8172533ea5ecc1f183a2fb2b45e00d5f"
+    }, {
+      "name" : "선물 버튼",
+      "children" : [ {
+        "name" : "test_startballon_btn",
+        "uid" : "5d1caed24c252b01",
+        "parentUid" : "726205c09b6324fa03dada18f8862fb0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646638105455,
+          "stop" : 1646638130468,
+          "duration" : 25013
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 9,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "726205c09b6324fa03dada18f8862fb0"
+    }, {
+      "name" : "플레이어내 애드벌룬 버튼",
+      "children" : [ {
+        "name" : "test_adballon_btn",
+        "uid" : "dd3d15c0118e7a28",
+        "parentUid" : "11aa32ee3e74f56f6ba1d4263366ad43",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646638130499,
+          "stop" : 1646638130515,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 8,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "11aa32ee3e74f56f6ba1d4263366ad43"
+    }, {
+      "name" : "채팅 및 이모티콘",
+      "children" : [ {
+        "name" : "test_chat",
+        "uid" : "2b266d776dd3ad44",
+        "parentUid" : "bb5fc8344b199fd140d9f8cb2eb82ab1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646638130531,
+          "stop" : 1646638130546,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bb5fc8344b199fd140d9f8cb2eb82ab1"
+    }, {
+      "name" : "리스트팝업",
+      "children" : [ {
+        "name" : "test_list_popup_mode",
+        "uid" : "6658af5ad00aa7ab",
+        "parentUid" : "4a77fb2ba032c95d1cf34ddd12a7da9e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646638130562,
+          "stop" : 1646638130578,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4a77fb2ba032c95d1cf34ddd12a7da9e"
+    } ],
+    "uid" : "73fa3294d6169326f4bab3908c01caca"
+  }, {
+    "name" : "test_tear_down",
+    "uid" : "efe30835ef424221",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646638130593,
+      "stop" : 1646638131358,
+      "duration" : 765
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 7,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_setup",
+    "uid" : "7025499b63fdf054",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648730707029,
+      "stop" : 1648730710384,
+      "duration" : 3355
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 9,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "썸네일을 통한 핫이슈 방송 진입",
+    "children" : [ {
+      "name" : "test_guest_live_player_basic",
+      "uid" : "4f4ef7856ae37817",
+      "parentUid" : "93c3b310f556425a81646d25acef1050",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648730710386,
+        "stop" : 1648730712642,
+        "duration" : 2256
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 9,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "93c3b310f556425a81646d25acef1050"
+  }, {
+    "name" : "비회원 라이브 플레이어 기능",
+    "children" : [ {
+      "name" : "영상모드 변경",
+      "children" : [ {
+        "name" : "test_video_mode",
+        "uid" : "75e1169d01b66e36",
+        "parentUid" : "8d00c4d07609cdb758c41b5593c20a8a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648730712642,
+          "stop" : 1648730717939,
+          "duration" : 5297
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 8,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8d00c4d07609cdb758c41b5593c20a8a"
+    }, {
+      "name" : "영상품질 변경",
+      "children" : [ {
+        "name" : "test_video_qaulity",
+        "uid" : "b106a1dc82b71d82",
+        "parentUid" : "2ca2659ea0f54d5421b94c76340600f6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1648730717939,
+          "stop" : 1648730721267,
+          "duration" : 3328
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2ca2659ea0f54d5421b94c76340600f6"
+    } ],
+    "uid" : "4b1095696e5df994c6d2a922ec7bd342"
+  }, {
+    "name" : "test_tear_down",
+    "uid" : "57d92a93dfb3f312",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648730721392,
+      "stop" : 1648730725127,
+      "duration" : 3735
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 6,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_setup",
+    "uid" : "8d374082716387fc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1649062670052,
+      "stop" : 1649062673972,
+      "duration" : 3920
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 14,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "로그인 기능",
+    "children" : [ {
+      "name" : "지정된 계정정보로 로그인",
+      "children" : [ {
+        "name" : "test_login",
+        "uid" : "fd13511f097a28f3",
+        "parentUid" : "ac09fd33cecdea23ef31aae1736684c8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649062673972,
+          "stop" : 1649062680726,
+          "duration" : 6754
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 11,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ac09fd33cecdea23ef31aae1736684c8"
+    } ],
+    "uid" : "b30a889de8d9afc6dad90de08143bf4b"
+  }, {
+    "name" : "test_tear_down",
+    "uid" : "1e7b4f2232f45bd6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1649062680726,
+      "stop" : 1649062685047,
+      "duration" : 4321
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 11,
+    "retriesStatusChange" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_tear_down",
+    "uid" : "9ed6f1bfcf2da1aa",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1653630898715,
+      "stop" : 1653630899668,
+      "duration" : 953
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 11,
+    "retriesStatusChange" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_setup",
+    "uid" : "2794db8c42bff27f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654246893251,
+      "stop" : 1654246894494,
+      "duration" : 1243
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 9,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "설치 후 권한 허용",
+    "children" : [ {
+      "name" : "test_allow_permissions",
+      "uid" : "9f80a31912d344a4",
+      "parentUid" : "a9e465c5b0bb382ca4ca584ed4fa245f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654246894509,
+        "stop" : 1654246894993,
+        "duration" : 484
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 9,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_allow_permissions",
+      "uid" : "1114303185335f32",
+      "parentUid" : "a9e465c5b0bb382ca4ca584ed4fa245f",
+      "status" : "broken",
+      "time" : {
+        "start" : 1660732651184,
+        "stop" : 1660732751618,
+        "duration" : 100434
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 12,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a9e465c5b0bb382ca4ca584ed4fa245f"
+  }, {
+    "name" : "앱 설치 및 실행",
+    "children" : [ {
+      "name" : "test_allow_permissions",
+      "uid" : "9f80a31912d344a4",
+      "parentUid" : "d1643b78b4d44aa5a9830c395dc9b893",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654246894509,
+        "stop" : 1654246894993,
+        "duration" : 484
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 9,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_allow_permissions",
+      "uid" : "1114303185335f32",
+      "parentUid" : "d1643b78b4d44aa5a9830c395dc9b893",
+      "status" : "broken",
+      "time" : {
+        "start" : 1660732651184,
+        "stop" : 1660732751618,
+        "duration" : 100434
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 12,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d1643b78b4d44aa5a9830c395dc9b893"
+  }, {
+    "name" : "test_tear_down",
+    "uid" : "62d63760e6822f25",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1654246894997,
+      "stop" : 1654246901163,
+      "duration" : 6166
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 9,
+    "retriesStatusChange" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_setup",
+    "uid" : "91cb2dd12286f7c1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1660732650168,
+      "stop" : 1660732651182,
+      "duration" : 1014
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 13,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "LIVE",
+    "children" : [ {
+      "name" : "화질 변경",
+      "children" : [ {
+        "name" : "test_video_qaulity",
+        "uid" : "d867aaa51c7bb645",
+        "parentUid" : "f2996c8814d9d61950d35c7b178733e1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663767880612,
+          "stop" : 1663767912397,
+          "duration" : 31785
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f2996c8814d9d61950d35c7b178733e1"
+    }, {
+      "name" : "UP",
+      "children" : [ {
+        "name" : "test_up",
+        "uid" : "22b7609a09feedcd",
+        "parentUid" : "6d94f91d62e961e4666825c3265a7b0f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663767912399,
+          "stop" : 1663767914512,
+          "duration" : 2113
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6d94f91d62e961e4666825c3265a7b0f"
+    }, {
+      "name" : "채팅 및 이모티콘",
+      "children" : [ {
+        "name" : "test_chat",
+        "uid" : "89c3322d88ae229b",
+        "parentUid" : "aeeae02363c4e4d206510c91f76bf0ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663767914515,
+          "stop" : 1663767926748,
+          "duration" : 12233
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "aeeae02363c4e4d206510c91f76bf0ef"
+    }, {
+      "name" : "리스트 팝업",
+      "children" : [ {
+        "name" : "test_list_popup_mode",
+        "uid" : "1a4eca2a3eb3eaab",
+        "parentUid" : "a301cea6ab913a533f3d20d92a2681f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663767926750,
+          "stop" : 1663767934514,
+          "duration" : 7764
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a301cea6ab913a533f3d20d92a2681f8"
+    }, {
+      "name" : "방송 검색",
+      "children" : [ {
+        "name" : "test_serach_screet_broadcast",
+        "uid" : "1a14d26386550b27",
+        "parentUid" : "310155bcd2c1d1078e27799bc600efb7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663768266950,
+          "stop" : 1663768304961,
+          "duration" : 38011
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "310155bcd2c1d1078e27799bc600efb7"
+    } ],
+    "uid" : "b21c56d1da611854513f26e7f6c9b72b"
+  }, {
+    "name" : "내 정보",
+    "children" : [ {
+      "name" : "진입",
+      "children" : [ {
+        "name" : "test_my_info",
+        "uid" : "5e533f3101f107e3",
+        "parentUid" : "2aed976f080ebbbbfac1699ff71b2b29",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663767934517,
+          "stop" : 1663767939696,
+          "duration" : 5179
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test__list_scroll",
+        "uid" : "24572098126c876",
+        "parentUid" : "2aed976f080ebbbbfac1699ff71b2b29",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663767997796,
+          "stop" : 1663768003575,
+          "duration" : 5779
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2aed976f080ebbbbfac1699ff71b2b29"
+    }, {
+      "name" : "닉네임 변경",
+      "children" : [ {
+        "name" : "test_change_nickname",
+        "uid" : "3fc5c98831080805",
+        "parentUid" : "36a9e3e90507c0e50b88c21189fca22e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663767939698,
+          "stop" : 1663767945797,
+          "duration" : 6099
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "36a9e3e90507c0e50b88c21189fca22e"
+    }, {
+      "name" : "내 방송국",
+      "children" : [ {
+        "name" : "test_my_home",
+        "uid" : "d18ae184209f9504",
+        "parentUid" : "ef231a260f9cea0598e997af72947390",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663767945799,
+          "stop" : 1663767954251,
+          "duration" : 8452
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ef231a260f9cea0598e997af72947390"
+    }, {
+      "name" : "내 애드벌룬",
+      "children" : [ {
+        "name" : "test_my_adballoon",
+        "uid" : "8514825ba4cb124a",
+        "parentUid" : "965ab5a7561afc1e8a31d64ab54d7f78",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663767954253,
+          "stop" : 1663767960124,
+          "duration" : 5871
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "965ab5a7561afc1e8a31d64ab54d7f78"
+    }, {
+      "name" : "내 포인트",
+      "children" : [ {
+        "name" : "test_my_point",
+        "uid" : "afef014333e99caf",
+        "parentUid" : "746b2d1360d61e3f3029808609176d17",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663767960126,
+          "stop" : 1663767966513,
+          "duration" : 6387
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "746b2d1360d61e3f3029808609176d17"
+    }, {
+      "name" : "내 크레딧",
+      "children" : [ {
+        "name" : "test_my_credit",
+        "uid" : "fe31661abf55a956",
+        "parentUid" : "1c2c59330f5876527da80decf6f453ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663767966516,
+          "stop" : 1663767972718,
+          "duration" : 6202
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1c2c59330f5876527da80decf6f453ff"
+    }, {
+      "name" : "내 구독",
+      "children" : [ {
+        "name" : "test_my_sub",
+        "uid" : "96f63e34ee804d3",
+        "parentUid" : "7626152efcb7380df89882c7c5e85049",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663767972720,
+          "stop" : 1663767976384,
+          "duration" : 3664
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7626152efcb7380df89882c7c5e85049"
+    }, {
+      "name" : "내 별풍선, 아이템",
+      "children" : [ {
+        "name" : "test_my_balloon",
+        "uid" : "4b9b28861256c8db",
+        "parentUid" : "b689f90c11403adea30fd14f52fedfcb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663767976386,
+          "stop" : 1663767981563,
+          "duration" : 5177
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b689f90c11403adea30fd14f52fedfcb"
+    }, {
+      "name" : "쪽지함",
+      "children" : [ {
+        "name" : "test_note_box",
+        "uid" : "cd3cb6bbae8f5d9c",
+        "parentUid" : "52ccdba55b822b2a26a1fb35f6c32fe4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663767981566,
+          "stop" : 1663767989409,
+          "duration" : 7843
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "52ccdba55b822b2a26a1fb35f6c32fe4"
+    }, {
+      "name" : "내 글, 댓글",
+      "children" : [ {
+        "name" : "test_my_story",
+        "uid" : "caea8a20b531ce11",
+        "parentUid" : "417023c891d1e7a974f61b836d3c259c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663767989412,
+          "stop" : 1663767994537,
+          "duration" : 5125
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "417023c891d1e7a974f61b836d3c259c"
+    }, {
+      "name" : "개인정보",
+      "children" : [ {
+        "name" : "test_privacy_btn",
+        "uid" : "c0c7c5d5474ea4fc",
+        "parentUid" : "1b15941a56edb2e74f3cbfcfd6d789d8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663767994539,
+          "stop" : 1663767997793,
+          "duration" : 3254
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1b15941a56edb2e74f3cbfcfd6d789d8"
+    }, {
+      "name" : "계정 연결",
+      "children" : [ {
+        "name" : "test_account_link",
+        "uid" : "a794207405f8d605",
+        "parentUid" : "8d695fc51c9d73f82a5c5e1a0858bb1d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663768003578,
+          "stop" : 1663768006431,
+          "duration" : 2853
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8d695fc51c9d73f82a5c5e1a0858bb1d"
+    }, {
+      "name" : "인증번호",
+      "children" : [ {
+        "name" : "test_certification_number",
+        "uid" : "5cca8aa24730097e",
+        "parentUid" : "79ab842e4d66c4f632ef294d1fa1e4cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663768006433,
+          "stop" : 1663768011247,
+          "duration" : 4814
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "79ab842e4d66c4f632ef294d1fa1e4cf"
+    }, {
+      "name" : "수익",
+      "children" : [ {
+        "name" : "test_revenue_service",
+        "uid" : "3a3c3a0278bb6158",
+        "parentUid" : "b420efbd12efd0c16b635f840b738b4b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663768011249,
+          "stop" : 1663768013958,
+          "duration" : 2709
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b420efbd12efd0c16b635f840b738b4b"
+    }, {
+      "name" : "통계",
+      "children" : [ {
+        "name" : "test_statistics",
+        "uid" : "9c0da420ed0a6079",
+        "parentUid" : "e3836231263d1a65a81e37cc5eeafd8c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663768013961,
+          "stop" : 1663768019834,
+          "duration" : 5873
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e3836231263d1a65a81e37cc5eeafd8c"
+    }, {
+      "name" : "비밀번호 변경",
+      "children" : [ {
+        "name" : "test_change_pw",
+        "uid" : "1200fe97a3c96a4",
+        "parentUid" : "6d553d0aed45d94ef2d4c30807241d8f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663768019836,
+          "stop" : 1663768023209,
+          "duration" : 3373
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6d553d0aed45d94ef2d4c30807241d8f"
+    }, {
+      "name" : "2차 비밀번호 설정",
+      "children" : [ {
+        "name" : "test_second_pw_set",
+        "uid" : "f3202cfbe2567409",
+        "parentUid" : "0b5f029195ef481cbef14dc7c18e6371",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663768023211,
+          "stop" : 1663768028095,
+          "duration" : 4884
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0b5f029195ef481cbef14dc7c18e6371"
+    }, {
+      "name" : "로그인 관리",
+      "children" : [ {
+        "name" : "test_login_device",
+        "uid" : "c6ccebdfc8ccccd7",
+        "parentUid" : "ae80c4d87d548f35dbaa1e3e181d2f52",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663768028097,
+          "stop" : 1663768031157,
+          "duration" : 3060
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ae80c4d87d548f35dbaa1e3e181d2f52"
+    }, {
+      "name" : "이용제재 내역",
+      "children" : [ {
+        "name" : "test_penalty",
+        "uid" : "17023619dae4fe76",
+        "parentUid" : "b5aa4d139d34d9513bb0319de0b4ecfb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663768031159,
+          "stop" : 1663768035342,
+          "duration" : 4183
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b5aa4d139d34d9513bb0319de0b4ecfb"
+    }, {
+      "name" : "로그아웃",
+      "children" : [ {
+        "name" : "test_logout",
+        "uid" : "5837823fb81d3f3c",
+        "parentUid" : "d0dd9a41814df4354b8633914ed5c5c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663768035344,
+          "stop" : 1663768039834,
+          "duration" : 4490
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d0dd9a41814df4354b8633914ed5c5c0"
+    } ],
+    "uid" : "0688115642a8b50ee9e4e8ee843dc448"
+  }, {
+    "name" : "test_setup",
+    "uid" : "4af4a8c71be1bde7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1663768392920,
+      "stop" : 1663768406330,
+      "duration" : 13410
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 8,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "MY",
+    "children" : [ {
+      "name" : "로그인",
+      "children" : [ {
+        "name" : "test_intro_login",
+        "uid" : "1d25743d745eded1",
+        "parentUid" : "47c093c0370c6fe8e141c706db740dac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1663768406332,
+          "stop" : 1663768430598,
+          "duration" : 24266
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 8,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "47c093c0370c6fe8e141c706db740dac"
+    } ],
+    "uid" : "5e00d87fb42ff9a13f14878ac9cbe5fe"
+  }, {
+    "name" : "test_tear_down",
+    "uid" : "9b30bcd4e1d21256",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1663768430600,
+      "stop" : 1663768435126,
+      "duration" : 4526
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 6,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  } ]
+}
